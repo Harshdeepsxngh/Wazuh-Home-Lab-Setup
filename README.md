@@ -35,22 +35,17 @@ Hardware Health Detection: Discovered and diagnosed physical hardware degradatio
 1. Network Reconnaissance (Nmap)
 
 Performed aggressive port scanning from the Ubuntu host to the Windows endpoint to identify open ports (e.g., Port 5357/wsdapi).
-
-(Add your Nmap terminal screenshot here)
-![Nmap Scan](link-to-your-nmap-image.png)
+ ![Nmap Scan](<Screenshot From 2026-09-21 16-55-07.png>)
 
 2. Brute-Force Authentication Attack
 
 Simulated a manual brute-force attack on the Windows lock screen to trigger authentication alerts. Wazuh successfully ingested Windows Event logs and flagged the multiple failed login attempts.
-
-(Add your Wazuh Failed Login Alert screenshot here)
-![Failed Login Alert](link-to-your-wazuh-alert-image.png)
+![Failed LoginAlert](<Screenshot From 2026-09-21 17-03-46.png>)
 
 3. System Integrity & Anomaly Detection
 
 Wazuh's Rootcheck module successfully detected hidden content and NTFS Alternate Data Streams on the target machine, highlighting advanced anomaly detection capabilities.
 
-(Add your Bad Block / Event ID 7 screenshot here)
-![System Event Logs](link-to-your-system-logs-image.png)
+![System Event Logs](<Screenshot From 2026-09-21 17-49-59.png>)
 
 This project demonstrates hands-on experience with endpoint security monitoring, log analysis, and network troubleshooting in a realistic home lab environment.
